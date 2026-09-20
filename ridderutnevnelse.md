@@ -51,7 +51,7 @@ title: Ridderutnevnelse
 {%- assign count_array_kristiansund = count_array_kristiansund | sort | reverse %}
 {%- assign count_array_molde = count_array_molde | sort | reverse %}
 {%- assign count_array_aalesund = count_array_aalesund | sort | reverse %}
-{%- for i in (0..9) %}
+{%- for i in (0..19) %}
   {%- assign elem_split_kristiansund = count_array_kristiansund[i] | split: ", " %}
   {%- assign elem_split_molde = count_array_molde[i] | split: ", " %}
   {%- assign elem_split_aalesund = count_array_aalesund[i] | split: ", " %}
